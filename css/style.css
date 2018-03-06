@@ -1,0 +1,139 @@
+
+@font-face {
+    font-family: Pacifico;
+    src: url(Pacifico.ttf);
+    font-family: Concert One;
+    src: url(Concert_One.ttf);
+}
+
+.header {
+    font-family: Concert One;
+    color: rgba(31, 80, 25, 0.97);
+    background-color: rgba(231, 180, 157, 0.973);
+    margin: 20 px;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    justify-content:center;
+}
+
+.header img {
+    max-width: 100px;  
+    align-items: right;
+}
+
+.menu {
+    font-family: Concert One;
+    color: rgba(31, 80, 25, 0.97);
+    background-color: rgba(231, 180, 157, 0.973);
+    width: 100%;
+    margin: 20 px;
+    margin-top:150px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    position: fixed;
+    justify-content:space-around;
+} 
+
+#lupa img {
+    max-width: 25px; 
+    max-height: 25px;
+}
+
+#lupa{
+    display: flex;
+    flex-direction: row;
+}
+
+.relleno {
+    background-color: rgb(253, 217, 148);
+    width: 100%;
+    height: 269px;
+}
+
+a:link{
+    text-decoration: none;
+    color: rgba(31, 80, 25, 0.97);
+}
+
+a:visited {
+    text-decoration: none;
+    color: #47290c;
+}
+
+.texto{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(31, 80, 25, 0.97);
+    background-color: rgb(253, 217, 148);
+    font-size: 16px;
+    padding: 50px;
+}
+
+.nombre {
+    font-style: bolder;
+}
+
+.contenido {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.ruta{
+    font-family: Concert One;
+    color: rgba(31, 80, 25, 0.97);
+    margin: 20 px;
+    padding: 50px;
+    text-align: justify;
+    background-color: rgb(253, 217, 148);
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+} 
+
+.ruta img{
+    display:flex;
+    align-items: flex-start;
+    width: 100%;
+    border: 1px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+
+}
+
+.foto{
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+}
+
+.piedefoto{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: rgba(31, 80, 25, 0.97);
+    font-size: 15px;
+    text-align: right;
+}
+
+.foot {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgba(31, 80, 25, 0.97);
+    background-color: rgba(231, 180, 157, 0.973);
+    margin: 20 px;
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    position: relative;
+    justify-content:center;
+}
+
+b{
+    font-weight: bold;
+}
+
+body {
+    background-color: rgb(253, 217, 148);
+}
